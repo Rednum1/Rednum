@@ -1,0 +1,155 @@
+
+body{
+	background-image: url("45.jpg");
+    background-size: cover;
+   }
+.container{
+    width:450px;
+    background-color: rgba(24, 33, 52, 0.7);
+    margin: 100px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #fd8f36;
+    padding-bottom: 5px;
+    
+   }
+.signUp{
+	color: #ffffff;
+	font-size:30pt;
+	font-family: AlundraText, sans-serif;
+	src: url (19151.ttf);  
+}
+.rules2 {
+	font-family: 'Antonio', sans-serif;
+    width: 4.5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+    font-size: 50px;
+    background: repeating-linear-gradient(#f13737, rgb(212, 95, 95) 2px, #2fd5ff  5px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #183D58;
+}
+.img{
+	width: 80%;
+    padding-bottom: 20px;
+}
+.container1{
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .btn{
+    border: none;
+    padding: 24px;
+    width: 220px;
+    font-family: "Satisfy",sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background-size: 200%;
+    transition: 0.6s;
+    background-image: linear-gradient(to left,#f13737,#2fd5ff,#f13737);
+    font-size: 11pt;
+  }
+  .btn:hover{
+    background-position: right;
+  }
+
+.pose{ 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 22.9%;
+  display: inline-block;
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+}
+ .lightRed {
+    background: red;
+    background-image: radial-gradient(brown,transparent);
+    background-size: 3px 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 85px;
+    right: 16px;
+    box-shadow: 0 0 20px #111 inset, 0 0 10px red;
+}
+.lightYellow {
+    background: yellow;
+    background-image: radial-gradient(orange,transparent);
+    background-size: 3px 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 144px;
+    right: 16px;
+    box-shadow: 0 0 20px #111 inset, 0 0 10px yellow;
+}
+.lightGreen {
+    background: green;
+    background-image: radial-gradient(lime,transparent);
+    background-size: 3px 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 204px;
+    right: 16px;
+    box-shadow: 0 0 20px #111 inset, 0 0 10px lime;
+}
+
+.lightRed {
+    animation-duration: 6s;
+    animation-name: lightRed;
+    animation-iteration-count: infinite;
+}
+.lightYellow {
+    animation-duration: 6s;
+    animation-name: lightYellow;
+    animation-iteration-count: infinite;
+}
+.lightGreen {
+    animation-duration: 6s;
+    animation-name: lightGreen;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lightRed{
+    0%{opacity: 1;}
+    20%{opacity: 1;}
+    40%{opacity: .1;}
+    60%{opacity: .1;}
+    80%{opacity: .1;}
+    100%{opacity: .1;}
+}
+
+@keyframes lightYellow{
+    0%{opacity: .1;}
+    20%{opacity: .1;}
+    40%{opacity: 1;}
+    50%{opacity: .1;}
+    60%{opacity: .1;}
+    80%{opacity: .1;}
+    100%{opacity: .1;}
+}
+
+@keyframes lightGreen{
+    0%{opacity: .1;}
+    40%{opacity: .1;}
+    60%{opacity: 1;}
+    80%{opacity: 1;}
+    85%{opacity: .1;}
+    90%{opacity: 1;}
+    95%{opacity: .1;}
+    100%{opacity: 1;}
+}

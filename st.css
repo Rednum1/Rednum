@@ -1,0 +1,128 @@
+
+body{
+ background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/78/1/CjPIwH.jpg");
+ background-size: cover;
+ font-family: AlundraText, sans-serif;
+ src: url (19151.ttf);  
+}
+.container{
+    width:450px;
+    background-color: rgba(51, 51, 51, 0.7);
+    margin: 100px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #fd8f36;
+    padding-bottom: 20px;
+    
+   }
+.dvs1{
+    position: relative;
+    left: 33%; 
+    border:none;
+    outline: none;
+    width:72px;
+    height:80px;
+    margin: -45px 0 30px 0;
+    border: solid #1a394f;
+    border-width: 5px 0 5px 5px;
+    box-shadow: 0 -5px 0 #fd8f36;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    transition: 1s;
+    float:left;
+    cursor: pointer;
+}
+.dvs2{
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    border-width: 5px 5px 5px 0;
+    float:left;
+}
+.dvs1:hover{
+    z-index: 4;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4);
+    transform: scale(1.2);
+   }
+   .dvs2:hover{
+    z-index: 4;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+   }
+a{
+  color: #fff;
+  font-size: 12pt;
+ }
+a:hover{
+ text-decoration: none;
+}
+input[type="text"],input[type="password"]{
+ width: 300px;
+ height:50px;
+ font-size: 18px;
+ margin-bottom: 25px;
+ border-radius: 4px;
+ padding-left: 40px;
+}
+.input1 input:hover{
+ box-shadow: 0 0 6px 3px rgba(253, 168, 58, 0.35);
+}
+.submit {
+ padding: 13px 30px;
+ margin: 10px 0 20px 0;
+ font-size: 15px;
+ color: #fff;
+ background-color: #fd8f36;
+ border: none;
+ border-bottom: 4px solid #fd8f36;
+ cursor: pointer;
+}
+.submit:hover{
+ transition: all 1s;
+ background: #fff;
+ color: #2c536c;
+}
+.agreeT{
+    color: #fd8f36;
+}
+i{
+ color: #ffffff;
+ font-size: 20px;
+ width: 20px;
+ padding: 10px;
+}
+i:hover{
+ background-color: #f58428;
+ color: #ffffff;
+ border-radius: 5px;
+ cursor: pointer;
+} 
+.width{
+    margin-top: -20px;
+}
+.WAR{
+    font-weight: bold;
+    color:#fff;
+    font-size:70pt;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.video{
+    position:absolute;
+    width: 25%;
+    height: 35%;
+    margin-left: 2%;
+    margin-top: -2%;    
+}
+.video1{
+    margin-top: 17%;
+}
+.audio{
+    margin-top: 39%;
+    color:#f58428;
+    position:absolute;
+    margin-left: 2%;
+}
+.fig{
+    margin-top: 37.5%; 
+    margin-left: 3%;  
+    font-size: 18pt; 
+}
