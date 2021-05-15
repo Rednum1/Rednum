@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/1923896.jpg");
+    background-size: cover;
+    font-family: AlundraText, sans-serif;
+    src: url (19151.ttf);  
+   }
+   * { box-sizing: border-box; }
+
+.accordion-button:focus {
+	color: #ffffff;
+	background-color: #70655a;
+}
+.accordion-button:not(.collapsed) {
+    color: #f8f1e4;
+	background: linear-gradient(#70655a, #3a342e);
+}
+.accordion-button {
+	color: #a99b80;
+    background-color: #3a342e;
+}
+.accordion-body {
+    background-color: #d2d3cb;
+}
+.accordion-item {
+    border: 1px solid #000000;
+}
+.navbar {
+	margin-bottom: 0.5rem;
+}
+.bg-light {
+    background-color: #000000;
+}
+.btn-primary {
+	margin: 0.5rem 0;
+    color: #4f4944;
+    font-size: 14pt;
+    background: linear-gradient(#ffffff, #d2d3cb);
+    border-color: #ffffff;
+}
+primary:focus, .btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgb(62 78 50/ 50%);
+}
+.btn-primary:hover{
+	background: linear-gradient(#d2d3cb, #ffffff);
+    color: #b35215; 
+	border-color: #ffffff
+}
+.accordion-button:not(.collapsed)::after {
+   background-image: none;
+}
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #060706;
+}
